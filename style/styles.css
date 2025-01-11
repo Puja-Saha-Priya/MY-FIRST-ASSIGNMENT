@@ -1,0 +1,105 @@
+.title{
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.5);
+}
+.description{
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.background{
+    background-color: rgba(198, 228, 214, 1);
+    margin: 0 auto;
+    max-width: 1300px;
+    
+
+}
+.banner-content{
+    max-width: 620px;
+    max-height: 200;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+img{
+    max-width: 470px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.section-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700px;
+    margin:0 auto;
+    max-width: 1300px;
+    
+}
+.section-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    margin:0 auto;
+    max-width: 1300px;
+
+}
+.skills-container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    gap: 24px;
+
+}
+.texr-center{
+    text-align: center;
+}
+.skill{
+    padding: 32px;
+    max-width: 400px;
+    gap: 24px;
+    border-radius: 16px;
+}
+.bg{
+    background-color:rgba(84, 144, 245, 0.2);
+    
+}
+.bgg{
+    background-color:rgba(198, 228, 214, 1);
+}
+.bggg{
+    background-color:rgba(247, 235, 207, 1);
+}
+.skill-description{
+    max-width: 340px;
+    max-height: 105;
+    color: rgba(14, 14, 14, 0.7);
+    margin-left: 12px;
+    font-family: Fira Sans;
+    font-size: 15px;
+    line-height: 18px;
+}
+.skill-title{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700px;
+    max-width: 340px;
+    max-height: 24px;
+    margin-left:12px;
+    margin-bottom: 2px;
+
+}
+.m-image{
+    max-width: 64px;
+    max-height: 64px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
