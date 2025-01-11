@@ -1,3 +1,4 @@
+/*header style.*/
 .title{
     font-family: Fira Sans;
     font-size: 14px;
@@ -12,13 +13,15 @@
 .banner{
     display: flex;
     justify-content: space-around;
+    border-radius: 24px;
+    
     
     
     
 }
 .background{
     background-color: rgba(198, 228, 214, 1);
-    margin: 0 auto;
+    margin: 80px auto;
     max-width: 1300px;
     
 
@@ -36,24 +39,37 @@ img{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.header-btn{
+    background-color: rgba(0, 106, 80, 1);
+    max-width: 270px;
+    padding: 12px 34px;
+    font-family:Fira Sans;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.4);
+    border:none
+}
 .section-title{
     font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700px;
-    margin:0 auto;
+    margin:30px auto;
     max-width: 1300px;
+    margin-top: 80px;
     
 }
 .section-description{
     font-family: Fira Sans;
     font-size: 16px;
-    margin:0 auto;
+    margin:20px auto;
     max-width: 1300px;
+    margin-bottom: 40px;
+    color:rgba(14, 14, 14, 0.7);
 
 }
-.skills-container{
+.vision-container{
     display: flex;
-    margin: 0 auto;
+    margin: 80 auto;
     max-width: 1300px;
     gap: 24px;
 
@@ -61,7 +77,7 @@ img{
 .texr-center{
     text-align: center;
 }
-.skill{
+.visions{
     padding: 32px;
     max-width: 400px;
     gap: 24px;
@@ -77,7 +93,7 @@ img{
 .bggg{
     background-color:rgba(247, 235, 207, 1);
 }
-.skill-description{
+.vision-description{
     max-width: 340px;
     max-height: 105;
     color: rgba(14, 14, 14, 0.7);
@@ -86,7 +102,7 @@ img{
     font-size: 15px;
     line-height: 18px;
 }
-.skill-title{
+.vision-title{
     font-family: Fira Sans;
     font-size: 20px;
     font-weight: 700px;
@@ -113,9 +129,9 @@ img{
 }
 .news-backround{
    
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(25, 255, 255, 1);
     border-radius: 24px;
-    margin: 0 auto;
+    margin: 80px auto;
     max-width: 1200px;
     padding: 48px;
 
@@ -171,7 +187,124 @@ img{
     line-height: 24px;
     margin: 12px 0px;
 }
+.news-button{
+    background-color: rgba(0, 106, 80, 1);
+    max-width: 239px;
+    padding: 13px 26px;
+    font-family:Fira Sans;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border:none;
+    border-radius: 8px;
+}
+.text-align{
+    text-align: center;
+}
+.child{
+    border:1px solid rgba(14,14,14,0.15);
+    box-sizing: border-box;
+    border-radius: 16px;
+    max-width: 240px;
+    max-height: 128;
+    padding: 40px 40px;
+    font-family:Fira Sans;
+    font-size: 40px;
+    font-weight:800px bolder;
+
+    
+    
+    
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto ;
+    gap:24px
+}
+section{
+    margin: 0 auto;
+    max-width: 1300px;
+
+}
+.btn{
+width: 270px;
+height: 56px;
+padding: 17px 34px 17px 34px;
 
 
 
+margin: 24px 0px;
+    border-radius: 8px;
 
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+
+}
+
+.btn{
+    border-radius: 8px;
+
+background: rgb(84, 144, 245);
+border: none;
+max-width: 122px;
+    padding: 11px 20px;
+    font-family:Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+}
+.btnn{
+    background: rgb(9, 161, 92);
+border: none;
+    max-width: 122px;
+    padding: 11px 20px;
+    font-family:Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+
+=
+}
+.btnnn{
+    max-width: 122px;
+    padding: 11px 20px;
+    font-family:Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+
+background: rgb(255, 194, 57);
+border: none;
+}
+.form-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 800px;
+    max-width: 1300px;
+    max-height: 24px;
+
+}
+.form-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400px;
+    max-width: 1100px;
+    max-height:48px;
+    text-align: center;
+    margin: 10px auto;
+}
+.forms{
+    margin: 80px auto;
+}
