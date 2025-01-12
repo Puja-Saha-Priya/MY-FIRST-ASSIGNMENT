@@ -69,17 +69,20 @@ img{
 }
 .vision-container{
     display: flex;
+    flex-direction: colomun;
+    justify-content: space-between;
     margin: 80 auto;
     max-width: 1300px;
     gap: 24px;
 
 }
-.texr-center{
+
+.text-center{
     text-align: center;
 }
 .visions{
-    padding: 32px;
-    max-width: 400px;
+    padding: 32px 32px;
+    max-width: 410px;
     gap: 24px;
     border-radius: 16px;
 }
@@ -95,12 +98,13 @@ img{
 }
 .vision-description{
     max-width: 340px;
-    max-height: 105;
+    max-height: 105px;
     color: rgba(14, 14, 14, 0.7);
     margin-left: 12px;
     font-family: Fira Sans;
     font-size: 15px;
     line-height: 18px;
+    
 }
 .vision-title{
     font-family: Fira Sans;
@@ -113,7 +117,7 @@ img{
 
 }
 .m-image{
-    max-width: 64px;
+    max-weidth: 64px;
     max-height: 64px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -121,30 +125,33 @@ img{
 .news-card{
     display: flex;
     justify-content: space-around;
-    margin: auto;
-    gap:32px
+    margin: 20px auto;
+    
 
     
 
 }
 .news-backround{
    
-    background-color: rgba(25, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 24px;
-    margin: 80px auto;
+    margin: 10px auto;
     max-width: 1200px;
     padding: 48px;
+    border: 1px solid rgba(13, 14, 14, 20%);
 
 }
 .news-img{
     max-width: 408px;
-    max-height: 300px;
+    max-height: 2000px;
     border-radius: 24px;
-    margin-top: 10px;
+    margin:5px auto
+    
 }
 .news-content{
     max-width: 740px;
     max-height: 290px;
+    margin-top: 1px 0px;
 }
 .news-title{
     font-family: Fira Sans;
@@ -155,7 +162,7 @@ img{
 }
 .logo{
     max-width: 140px;
-    margin: 12px 0px;
+    margin: 0px 0px;
 }
 .time-date{
     display: flex;
@@ -177,6 +184,7 @@ img{
     font-family:Fira-Sans ;
     font-size: 16px;
     line-height: 24px;
+   
 
 }
 .news-article{
@@ -185,7 +193,7 @@ img{
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    margin: 12px 0px;
+    margin: 0px 0px;
 }
 .news-button{
     background-color: rgba(0, 106, 80, 1);
@@ -197,6 +205,7 @@ img{
     color: rgba(255, 255, 255, 1);
     border:none;
     border-radius: 8px;
+    margin: 20px auto;
 }
 .text-align{
     text-align: center;
@@ -210,48 +219,30 @@ img{
     padding: 40px 40px;
     font-family:Fira Sans;
     font-size: 40px;
-    font-weight:800px bolder;
+    font-weight:800px bold;
 
     
     
     
 }
+.different{
+    background-color: rgba(198, 228, 214, 1);
+}
 .parent{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 30px auto ;
-    gap:24px
+    max-width:1000px
 }
 section{
     margin: 0 auto;
     max-width: 1300px;
 
 }
-.btn{
-width: 270px;
-height: 56px;
-padding: 17px 34px 17px 34px;
 
-
-
-margin: 24px 0px;
-    border-radius: 8px;
-
-background: rgb(0, 106, 80);
-color: rgb(255, 255, 255);
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
-border: none;
-
-}
 
 .btn{
-    border-radius: 8px;
 
 background: rgb(84, 144, 245);
 border: none;
@@ -273,8 +264,6 @@ border: none;
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
     border-radius: 8px;
-
-=
 }
 .btnnn{
     max-width: 122px;
@@ -297,6 +286,7 @@ border: none;
 
 }
 .form-description{
+   color:rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400px;
@@ -307,4 +297,28 @@ border: none;
 }
 .forms{
     margin: 80px auto;
+}
+.submit-btn{
+    background: rgb(0, 106, 80,1);
+border: none;
+    max-width: 152px;
+    padding: 17px 34px;
+    font-family:Fira Sans;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    margin: 20px auto;
+}
+input{
+    
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px 100px ;
+    
+    
+}
+form{
+    max-width: 1300px;
 }
